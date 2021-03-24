@@ -1,0 +1,14 @@
+<h1>Welcome!</h1>
+    <div class="container">
+    <div>
+        Welcome {{message}} to my awesome app!
+    </div>
+    <div class="container">
+        You can manage your todos <a routerLink="/todos">here</a>
+    </div>
+
+    <div class="container">
+        Click here to get a customized message
+        <button class="btn btn-primary" (click)="getWelcomeMessage()">get welcome message</button>
+    </div>
+</div>
